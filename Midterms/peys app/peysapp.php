@@ -19,7 +19,6 @@
     <br><br>
     <?php
     if(isset($_GET['Process'])){
-        $ImageRangeSize = 60;
         $ImageRangeSize = $_GET['ImgSize'];
         $border = $_GET['BColor'];
     }

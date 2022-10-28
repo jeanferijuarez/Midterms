@@ -17,9 +17,9 @@ session_start();
             if(($Utypevalue == "admin")){
                 
                 $admin1 ="admin";
-                $Padmin1 ="pass1234";
-                $admin2 = "renmark";
-                $Padmin2 = "pog1234";
+                $Padmin1 ="admin123";
+                $admin2 = "Jeanferi";
+                $Padmin2 = "igop123";
                 
     
                 if(($_POST['Username'] == $admin1 && $_POST['Password']==$Padmin1))
@@ -79,8 +79,8 @@ session_start();
 
                     if(($Utypevalue == "SystemUs")){
                 
-                        $SystemUs1 ="pedro";
-                        $PSystemUs1 ="penduko";
+                        $SystemUs1 ="Ding";
+                        $PSystemUs1 ="Angbato";
                         
                         
             

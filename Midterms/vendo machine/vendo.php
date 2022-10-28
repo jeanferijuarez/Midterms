@@ -48,7 +48,6 @@ if(isset($_GET['CheckOutbtn']) &&
        isset($_GET['size']) && 
        isset($_GET['QtySoda'])){
 echo '<hr>';
-// echo '<b>No Selected Product, Try Again</b> <br>';
 echo '<b>Purchase Summary:</b> <br>';
 
         $arrSoda = $_GET['sodas'];
